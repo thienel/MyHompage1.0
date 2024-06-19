@@ -1,0 +1,40 @@
+header{
+    font-size: 50px;
+    text-align:center;
+    font-weight: bold;
+}
+
+body{
+    font-family:JetBrains Mono;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+h1{
+    text-align:left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    text-align:left;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    font-weight: Italic;
+}
